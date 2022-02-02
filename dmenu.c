@@ -615,6 +615,9 @@ keypress(XKeyEvent *ev)
 	case XK_Escape:
 		cleanup();
 		exit(1);
+	case XK_Menu:
+		cleanup();
+		exit(1);
 	case XK_Home:
 		if (sel == matches) {
 			cursor = 0;
