@@ -823,7 +823,7 @@ run(void)
 static void
 setup(void)
 {
-	int x, y, i, j;
+	int x, y, i = 0, j;
 	unsigned int du;
 	XSetWindowAttributes swa;
 	XIM xim;
