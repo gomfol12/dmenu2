@@ -63,10 +63,10 @@ static const unsigned int border_width = 2;
 ResourcePref resources[] = {
 	{ "color7", STRING, &normfgcolor },
 	{ "background", STRING, &normbgcolor },
-	{ "color7",  STRING, &selfgcolor },
-	{ "color1",  STRING, &selbgcolor },
-    { "color2", STRING, &selhighfgcolor },
+	{ "color7", STRING, &selfgcolor },
+	{ "color1", STRING, &selbgcolor },
+    { "color0", STRING, &selhighfgcolor },
     { "color1", STRING, &selhighbgcolor },
-    { "color2", STRING, &normhighfgcolor },
+    { "color1", STRING, &normhighfgcolor },
     { "background", STRING, &normhighbgcolor },
 };
