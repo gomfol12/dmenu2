@@ -5,7 +5,7 @@ static int topbar = 1;                      /* -b  option; if 0, dmenu appears a
 static int fuzzy = 1;                      /* -F  option; if 0, dmenu doesn't use fuzzy matching     */
 static const unsigned int alpha = 0xf0;
 static int centered = 1;                    /* -c option; centers dmenu on screen */
-static int min_width = 1000;                    /* minimum width when centered */
+static int min_width = 800;                    /* minimum width when centered */
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
@@ -55,18 +55,18 @@ static unsigned int min_lineheight = 8;
 static const char worddelimiters[] = " ";
 
 /* Size of the window border */
-static const unsigned int border_width = 2;
+static const unsigned int border_width = 0;
 
 /*
  * Xresources preferences to load at startup
  */
 ResourcePref resources[] = {
-	{ "color7", STRING, &normfgcolor },
+	{ "foreground", STRING, &normfgcolor },
 	{ "background", STRING, &normbgcolor },
-	{ "color7", STRING, &selfgcolor },
-	{ "color1", STRING, &selbgcolor },
+	{ "color0", STRING, &selfgcolor },
+	{ "color2", STRING, &selbgcolor },
     { "color0", STRING, &selhighfgcolor },
-    { "color1", STRING, &selhighbgcolor },
-    { "color1", STRING, &normhighfgcolor },
+    { "color2", STRING, &selhighbgcolor },
+    { "color2", STRING, &normhighfgcolor },
     { "background", STRING, &normhighbgcolor },
 };
