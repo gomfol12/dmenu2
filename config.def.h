@@ -9,9 +9,9 @@ static int min_width = 800;                    /* minimum width when centered */
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-	"monospace:pixelsize=16",
-    "Symbols Nerd Font:pixelsize=14:antialias=true:autohint=true",
-    "Twemoji:pixelsize=14:antialias=true:autohint=true"
+	"monospace:pixelsize=32:antialias=true:autohint=true:dpi=190",
+    "Symbols Nerd Font:pixelsize=28:antialias=true:autohint=true:dpi=190",
+    "Twemoji:pixelsize=28:antialias=true:autohint=true:dpi=190"
 };
 
 static char *prompt      = NULL;      /* -p  option; prompt to the left of input field */
