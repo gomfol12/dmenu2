@@ -9,7 +9,7 @@ static int min_width = 1200;                    /* minimum width when centered *
 
 /* -fn option overrides fonts[0]; default X11 font or font set */
 static const char *fonts[] = {
-    "Iosevka:pixelsize=32:antialias=true:autohint=true:dpi=192",
+    "Inconsolata Nerd Font:pixelsize=32:antialias=true:autohint=true:dpi=192",
     "Symbols Nerd Font Mono:pixelsize=28:antialias=true:autohint=true:dpi=192",
     "Twemoji:pixelsize=28:antialias=true:autohint=true:dpi=192"
 };
